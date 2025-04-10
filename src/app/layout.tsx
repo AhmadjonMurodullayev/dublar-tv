@@ -10,17 +10,17 @@ const font = Roboto({
   display: "swap",
 });
 export const metadata: Metadata = {
-  metadataBase: new URL("https://in-house-l.vercel.app"),
+  metadataBase: new URL("https://dublar-tv.vercel.app"),
   title: "In house",
   description:
-    "O’zbekistondagi mebellar hamda dizayn va qurilish soxasi professionallarini izlashning  eng qulay platformasi",
+    "Dublar.tv — bu O‘zbekistonda kino va dublyaj san’atining yangi manzili. Biz eng sara filmlar, sifatli ovozlashtirish va original tarjimalarni bitta sahnada jamladik. Har bir kadr, har bir ovoz va har bir tarjima — bizning muhabbatimiz bilan ishlangan.",
   // icons: {
   //   icon: "/images/icon.png",
   // },
   openGraph: {
     description:
-      "O’zbekistondagi mebellar hamda dizayn va qurilish soxasi professionallarini izlashning  eng qulay platformasi",
-    // images: "/images/poster.png",
+      "Dublar.tv — bu O‘zbekistonda kino va dublyaj san’atining yangi manzili. Biz eng sara filmlar, sifatli ovozlashtirish va original tarjimalarni bitta sahnada jamladik. Har bir kadr, har bir ovoz va har bir tarjima — bizning muhabbatimiz bilan ishlangan.",
+    images: "/meta.jpg",
   },
 };
 
