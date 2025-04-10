@@ -1,5 +1,4 @@
-import Image from "next/image";
-import { MovieData, SliderWrapper } from "./_components/silider/siler-wrapper";
+import {  SliderWrapper } from "./_components/silider/siler-wrapper";
 import kino from "/public/kono.jpg";
 
 export default function Home() {
