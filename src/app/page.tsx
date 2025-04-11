@@ -10,7 +10,6 @@ export default function Home() {
    <div className="container">
     <SliderWrapper img={kino} title="Yangi qisimlar"/>
    </div>
-   dsvsadfvdsfvdf
   
   </>
   );

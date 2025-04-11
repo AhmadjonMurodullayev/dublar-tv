@@ -14,9 +14,9 @@ export const metadata: Metadata = {
   title: "Dublar TV",
   description:
     "Dublar.tv — bu O‘zbekistonda kino va dublyaj san’atining yangi manzili. Biz eng sara filmlar, sifatli ovozlashtirish va original tarjimalarni bitta sahnada jamladik. Har bir kadr, har bir ovoz va har bir tarjima — bizning muhabbatimiz bilan ishlangan.",
-  // icons: {
-  //   icon: "/images/icon.png",
-  // },
+  icons: {
+    icon: "/icon.png",
+  },
   openGraph: {
     description:
       "Dublar.tv — bu O‘zbekistonda kino va dublyaj san’atining yangi manzili. Biz eng sara filmlar, sifatli ovozlashtirish va original tarjimalarni bitta sahnada jamladik. Har bir kadr, har bir ovoz va har bir tarjima — bizning muhabbatimiz bilan ishlangan.",

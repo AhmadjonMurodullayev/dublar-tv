@@ -23,9 +23,9 @@ export const CategoryCard = ({
       </div>
 
       {/* Image */}
-      <div className="h-full w-full relative">
+      <div className="h-full w-full relative ">
         <Image
-          className="w-full h-full object-cover"
+          className="w-full h-full  overflow-clip-margin content-box; "
           src={img }
           alt={title}
           fill

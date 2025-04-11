@@ -10,7 +10,7 @@ const Header = () => {
     <header className="container">
       <div className="flex items-center justify-between py-4 gap-4">
         {/* Logo */}
-        <div className="relative w-[180px] h-[60px]">
+        <div className="relative w-[150px] h-[50px] md:w-[180px] md:h-[60px]">
           <Image
             src="/777.svg"
             alt="Logo"
@@ -20,8 +20,8 @@ const Header = () => {
         </div>
 
         {/* Search */}
-        <div className="flex-1 max-w-lg">
-          <div className="relative">
+        <div className="hidden md:flex flex-1 max-w-lg">
+          <div className="relative w-full">
             <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-gray-400" />
             <Input
               type="search"
